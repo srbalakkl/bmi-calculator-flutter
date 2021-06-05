@@ -28,8 +28,9 @@ class _InputPageState extends State<InputPage> {
         child: Text('Body Text'),
       ),
       floatingActionButton: Theme(
-        data:ThemeData.dark(),
-
+        data:ThemeData(
+          accentColor: Colors.white70,
+        ),
         child: FloatingActionButton(
           child: Icon(Icons.add),
         ),
